@@ -1,7 +1,7 @@
 # vandroncdn.github.io
 
-Usage ==>> https://vandroncdn.ml/docs
-Website ==>> https://vandroncdn.ml
+Usage ==>> https://vandron.xyz/vandron-cdn
+Website ==>> https://vandron.xyz
 
 # Links for Worldwide
 
