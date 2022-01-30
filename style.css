@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@font-face {
+    font-family: vandron;
+    src: url(font.ttf);
+  }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bg-violet {
+    background: #5f27cd !important;
+    /* color: #fff !important; */
+}
+
+body {
+    background: #fff;
+
+}
+
+.text-violet {
+    color: #5f27cd;
+}
+
+.c1 {
+    background: #fff;
+    border: 3px solid #48dbfb !important;
+    color: #48dbfb !important;
+
+}
+
+.c1:hover {
+    background: #48dbfb;
+    color: #fff !important;
+    border: 3px solid #48dbfb !important;
+}
+
+.c2 {
+    background: #fff;
+    background: #48dbfb !important;
+    color: #fff !important;
+    border: 3px solid #48dbfb !important;
+}
+
+.c2:hover {
+    border: 3px solid #48dbfb !important;
+    background: #fff !important;
+    color: #48dbfb !important;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+}
+.bg-color1{
+    background: linear-gradient(to right, #1cd8d2, #93edc7); 
+    animation: rotate 5s linear infinite;
+}
+.btn-color{
+    background: #7d2ae8 !important; 
+    color: #fff !important;
+}
+.btn-color:hover{
+    background: #9766d8 !important; 
+    color: #fff !important;
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.c3{
+    background: #48dbfb !important;
+}
+.alert{
+    width: 400px;
+}
+.adbox{
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
